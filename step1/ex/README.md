@@ -19,5 +19,7 @@ Steps:
       $ source build/envsetup.sh
 
       $ lunch 1
-      
+
       $ emulator -kernel ~/kernel3.4/goldfish/arch/arm/boot/zImage
+
+6. Add a test app to android image (~/aosp/device/gereric/goldfish) 

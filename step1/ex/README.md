@@ -9,11 +9,15 @@ Steps:
 4. Build the kernel:
 
       $ cd ~/kernel3.4/goldfish
+
       $ make
 
 5. Test your work:
 
       $ cd ~/aosp
+
       $ source build/envsetup.sh
+
       $ lunch 1
+      
       $ emulator -kernel ~/kernel3.4/goldfish/arch/arm/boot/zImage
